@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- TraMel Marshall 5/18/2019 -->
+<!-- Form Page -->
+<html lang="en">
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+		<link media="print" href="print.css">
+		
+	</head>
+	<body>
+<div id="wrapper">
+<header>
+<h1>Ransomware 101</h1>
+</header>
+<nav>
+	<ul>	
+		<li><a href="final1.html">Home</a></li> 
+		<li><a href="final2.html">Issue</a></li>
+		<li><a href="final3.html">Form</a></li>
+		<li><a href="final4.html">Credits</a></li>
+		<li><a href="final5.html">Course Objectives</a></li>
+	</ul>
+</nav>
+
+<div id="lockhero"></div> <!-- Picture of red screen with warning-->
+
+<main>
+<h2>Contact Us Today!</h2>
+<h3>Please leave a comment on what you liked or did not like on our website. For a limited time only we will send you a 
+PDF on virus protection programs and firewalls.</h3>
+ 
+<p>Required fields are marked with an asterik &#42;.</p>
+
+<form method="post" action="http://webdevbasics.net/scripts/pacific.php"> <!-- Form doesn't go anywhere. I used the Pacific Trails link in the book for the form. -->
+
+<label for="myFName">*First Name:</label>
+<input type="text" name="myFName" id="myFName" required="required">
+			
+<label for="myLName">*Last Name: </label>
+<input type="text" name="myLName" id="myLName" required="required">
+			
+			<label for="myEmail">*E-mail: </label>
+				<input type="email" name="myEmail" id="myEmail" required="required" size="35">
+			<label for="myPhone">Phone: </label>
+				<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+			 
+			 <label for="date">Date you visited website:</label>
+	<input type="date" name="date" id="date">
+			
+		
+		<br><br>What interests you?<br><br>
+		<select size="1" name="optionlist" id="option list">
+			<option value="Virus Protection">Virus Protection</option>
+			<option value="Hacking">Hacking</option>
+			<option value="Identity Theft Protection">Identity Theft Protection</option>
+		<select><br><br>
+		
+		<p>Do you have a PC or Mac?</p>
+		I have Mac
+		 <input type="checkbox" name="Computer" value="Mac">
+		 I have a PC
+		<input type="checkbox" name="Computer" value="PC" checked>
+ 
+		<p>Did you find the information of this site helpful?</p>
+		Yes
+		<input type="radio" name="Yes" value="Yes">
+		No
+		<input type="radio" name="No" value="No">
+			
+			<br><label for="comments">*Comments: </label>
+		<textarea name="comments" id="comments" required="required" rows="2" cols="30"></textarea>
+				<input type="submit" value="Submit">
+				<input type="reset" name="reset" id="reset">
+					</form>
+				
+
+
+</main>
+<footer>
+Copyright &copy;<br><a href=mailto:tmarsh27@stumail.jccc.edu>tmarsh27@stumail.jccc.edu</a><br>
+
+
+</footer>	
+</div>
+	</body>
+</html>
